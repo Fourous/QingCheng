@@ -1,0 +1,42 @@
+
+<!-- <view class="titleFirst">
+  <text >青橙学车学车流程:</text>
+</view>
+<view  class="titleTime">
+  <text space="ensp">青橙学车  2019-08-23</text>
+</view>
+<image class="titleImg" src="../image/u101.png" />
+<view class="bodyPart">
+  <view class="bodyTitle"><text>01</text></view>
+  <view class="imgView"><image class="bodyImg" src="../image/z1.png" /></view>
+  <view class="bodyText"><text space="ensp">   注册青橙学车小程序，完整填写个人信息，点击首页报名，选择C1/C2档，选择你喜欢的学车班级，完成缴费，报名成功!</text></view>
+</view>
+<view class="bodyPart">
+  <view class="bodyTitle"><text>02</text></view>
+  <view class="imgView"><image class="bodyImg" src="../image/z2.png" /></view>
+  <view class="bodyText"><text space="ensp">   核对信息后，根据学员时间由客服指导预约体检，并安排教练进行接送。</text></view>
+</view>
+<view class="bodyPart">
+  <view class="bodyTitle"><text>03</text></view>
+  <view class="imgView"><image class="bodyImg" src="../image/z3.png" /></view>
+  <view class="bodyText"><text space="ensp">    学员根据自身时间预约考试，考试时由客服安排教练进行接送。</text></view>
+</view>
+<view class="bodyPart">
+  <view class="bodyTitle"><text>04</text></view>
+  <view class="imgView"><image class="bodyImg" src="../image/z4.png" /></view>
+  <view class="bodyText"><text space="ensp">   学员根据自己的时间预约教练进行训练，教练全程保姆式教学，并根据学员的练车情况安排考试。</text></view>
+</view>
+<view class="bodyPart">
+  <view class="bodyTitle"><text>05</text></view>
+  <view class="imgView"><image class="bodyImg" src="../image/z5.png" /></view>
+  <view class="bodyText"><text space="ensp">    科目三为道路驾驶技能考试科目，教练全程接送学员练车、考试。</text></view>
+</view>
+<view class="bodyPart">
+  <view class="bodyTitle"><text>06</text></view>
+  <view class="imgView"><image class="bodyImg" src="../image/z6.png" /></view>
+  <view class="bodyText"><text space="ensp">   科目四为安全文明驾驶常识科目四个科目全部通过，当天当场领取驾驶证。</text></view>
+</view>
+<view class="blank"></view> -->
+<view class="blank">
+<image class="png" mode="widthFix" src="{{png1}}"></image>
+</view>

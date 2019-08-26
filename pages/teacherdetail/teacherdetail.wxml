@@ -1,0 +1,13 @@
+<view class='news'>
+  <!-- <swiper class="newsSwiper" autoplay='true'  interval='3000' duration='1000' circular='true'>
+    <swiper-item wx:for="{{imgUrls}}">
+      <image class='swiper_img' style='width:100%;height=100%;' src="{{item}}" bindtap='showad' data-id='{{index}}'/>
+    </swiper-item>
+  </swiper> -->
+  <image  class="topimg" src="{{sw}}"></image>
+</view>
+<view class="newsList">
+  <view class="newsItem" bindtap="enterMenberThinking"><text class="itemText">学员心声</text><image mode="scaleToFill" class="itemImg" src="../image/invitefr.jpg"/></view>
+  <view class="newsItem" bindtap="enterTeacherThinking"><text class="itemText">教练心声</text><image class="itemImg" src="../image/invitefr.jpg"/></view>
+  <view class="newsItem" bindtap="enterCooperate"><text class="itemText">招商加盟</text><image class="itemImg"  src="../image/invitefr.jpg"/></view>
+</view>

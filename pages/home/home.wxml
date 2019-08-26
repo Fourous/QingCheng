@@ -1,0 +1,42 @@
+<!--pages/home/home.wxml-->
+
+
+<view class='container'>
+<!--上方轮播图片广告宣传-->
+  <!--三种套餐选择-->
+  <view class='swiper_adv'>
+      <swiper autoplay='true'  interval='3000' duration='1000' circular='true'>
+        <block wx:for="{{imgUrls}}">
+          <swiper-item>
+            <image class='swiper_img' style='width:100%;height:100%;' src="{{item}}" bindtap='showad' data-id='{{index+1}}'>
+            </image>
+          </swiper-item>
+        </block>
+      </swiper>
+  </view>
+  <view class="fourColumn">
+    <image class="columnImg" src='../image/columnImg1.png' bindtap="toColumn1"></image>
+    <image class="columnImg" src='../image/columnImg2.png' bindtap="toColumn2"></image>
+    <image class="columnImg" src='../image/columnImg3.png' bindtap="toColumn3"></image>
+    <image class="columnImg" src='../image/columnImg4.png' bindtap="toColumn4"></image>
+  </view>
+
+  <view class='apply'>
+   <!--<view class='home_picback'>
+  <image class='pic_back' src='../image/f_bgp.jpg'></image>
+  </view>-->
+    <view class='applyIcon team_people_img'>
+      <image class='iconImg' bindtap='to_group' src='../image/mainIcon1.png'></image>
+    </view>
+    <view class='applyIcon one_people_img'>
+      <image class='iconImg' bindtap='to_one_people' src='../image/mainIcon2.png'></image>
+    </view>
+    <view class='applyIcon four_people_img'>
+     <image class='iconImg' bindtap='to_four_people'src='../image/mainIcon3.png'></image>
+    </view>
+    <view class='applyIcon four_people_img'>
+     <image class='iconImg' bindtap='groupcom' src='../image/mainIcon4.png'></image>
+    </view>
+  </view>
+</view>
+

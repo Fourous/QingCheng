@@ -1,0 +1,36 @@
+<view class="showArea">
+  <!-- 留空内联样式数据 -->
+  <view vx:for="{{list}}">
+
+  </view>
+</view>
+<view class="comment">
+  <text class="textOnly">精选留言</text>
+  <!-- 每个最后都要改为wx：for形式 -->
+  <view class="commentItem" wx:for="{{commentList}}">
+    <image src="{{item.imgUrl}}" class="itemImg"/>
+    <view class="itemText">
+      <text style="font-size: 12px;">{{item.name}}</text>
+      <text>{{item.comment}}</text>
+    </view>
+    <image catchtap="giveAgree" data-id="{{item.dataid}}" src="../image/agree0.png"  class="agreeButton" wx:if="{{!item.isLike}}" />
+    <image src="../image/agree1.png" wx:else class="agreeButton"  />
+  </view>
+
+  <!-- <view class="commentItem">
+    <image class="itemImg"/>
+    <view class="itemText">
+      <text>姓名替换</text>
+      <text>评论内容替换</text>
+      <image src="../images/agree0" class="agreeButton" wx:if="{{!item.isLike}}" />
+      <image src="../images/agree1" class="agreeButton" />
+    </view>
+  </view>
+  <view class="commentItem">
+    <image class="itemImg"/>
+    <view class="itemText">
+      <text>姓名替换</text>
+      <text>评论内容替换</text>
+    </view>
+  </view> -->
+</view> 

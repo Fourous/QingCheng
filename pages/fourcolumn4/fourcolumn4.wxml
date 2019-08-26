@@ -1,0 +1,106 @@
+<!-- 
+<view class="titleFirst">
+  <text >青橙学车学车流程:</text>
+</view>
+<view  class="titleTime">
+  <text space="ensp">青橙学车  2019-08-23</text>
+</view>
+<image class="titleImg" src="../image/u101.png" />
+<view class="bodyPart">
+  <view class="bodyTitle"><text>01</text></view>
+  <view class="imgView"><image class="bodyImg" src="../image/z71.png" /></view>
+  <view class="titleView"><text class="titleText" space="ensp"> 01 了解题库</text></view>
+  <view class="bodyText"><text space="ensp">    科目一题库共1334道题，分解开很容易掌握。题库主要有四部分组成：道路交通安全法规和规章（505题）、交通信号（363题）、安全行车文明驾驶基础知识（304题）、机动车驾驶操作相关基本知识（139题）。</text></view>
+  <view class="titleView"><text class="titleText" space="ensp"> 02 安全法规题</text></view>
+  <view class="bodyText"><text space="ensp">    法规和安全文明方面的题需要理解掌握。有些是硬性规定，有些是行为习惯，有些是行车规范，基本都是我们日常生活中要遇到的情况，这部分题是告诉我们遇到这类问题时的处理方法。练习做题时能把题库这些内容静心通读两遍就能掌握，考试时这方面基本不会失分。
+    建议学习时长：14个小时</text></view>
+  <view class="titleView"><text class="titleText" space="ensp"> 03 交通信号题</text></view>
+  <view class="bodyText"><text space="ensp">    交通信号主要是对一些交通标志标线、信号灯及交警手势的认识。这些内容我们平时经常见到，或多或少都知道一部分，没有什么难度。但是有些容易记混淆和含糊不清，这就需要我们多看多记。我们可以去网上找一些交通标志大全，把它下载到手机里面，清闲没事的时候拿出来看一两遍就基本过关了。
+    建议学习时长：2个小时</text></view>
+  <view class="titleView"><text class="titleText" space="ensp"> 04 驾驶操作题</text></view>
+  <view class="bodyText"><text space="ensp">   主要考察对机动车的了解和操作情况，介绍了车内一些开关、灯光信号组的使用，这是学车必备的知识，即使不考试我们也需要掌握。内容很简单，基本上做一遍就能记的差不多了。
+    建议学习时长：5个小时</text></view>
+</view>
+<view class="bodyPart">
+  <view class="bodyTitle"><text>02</text></view>
+  <view class="imgView"><image class="bodyImg" src="../image/z72.png" /></view>
+  <view class="titleView"><text class="titleText" space="ensp"> 01 上车准备</text></view>
+  <view class="bodyText"><text space="ensp">    上车先系安全带，调整座椅，后视镜，轻踩刹车和离合，找找感觉，因为每一辆车的刹车和离合都有所不同。</text></view>
+  <view class="titleView"><text class="titleText" space="ensp"> 02 倒车入库</text></view>
+  <view class="bodyText"><text space="ensp">    倒车入库一定要控制好离合器，掌握好各个点位。
+    (1）注意30cm边距
+    倒库时注意车身与边线30cm边距，小于30cm回一圈，大于30cm不需要调整。
+    (2）车身与边线平行方向回正
+    车身入库后注意，观察后视镜，当车身与边线平行时，迅速回正方向。
+    (3）哪边宽往那边打
+    在调整车身左右宽度时，那边宽方向往那边打，不要打错了，调整幅度稍微小点，不宜大方向调整。
+    (4）注意停车点
+    调整车身时，观察好停车点，停车时，踩死离合器和刹车。
+    （5）倒车入库
+    全程注意车速不宜太快，打方向要赶早，早打方向好调整，打晚了，倒库容易压线。</text></view>
+  <view class="titleView"><text class="titleText" space="ensp"> 03 侧方位停车</text></view>
+  <view class="bodyText"><text space="ensp">    侧方停车相对点位没有倒车入库多，但是考试时，学员主要犯的错误就是压线，忽略转向灯操作。
+    (1）30cm边距调整
+    进入侧方时开始调整车身与边线30cm边距，观察雨刷器最高点与路边线重合。
+    (2）第一个打死点
+    倒库时，当右后视镜中，左入库角消失后，向右打死方向，一定要注意等到角消失后再打死，打得早了进出库容易压线。
+    (3）方向回正
+    观察左后视镜，当出现右库角时，方向迅速回正，一定要快，打方向慢了，容易错过点位。
+    (4）第二个打死点
+    观察左后视镜，当车轮即将压着入库线时，迅速向左打死方向，这时候根据自己的观察判断，如果打早了，可以稍微回一下。
+    (5）停车，转向灯开启
+    当车头正时，方向回正，首先开启左转向灯，以免忘记，一定要打到位，有些学员，开启转向灯后，闪三下直接关闭了，这是不正确的操作。
+    (6）出库
+    出库时，注意观察左右后视镜，防止车轮压线。</text></view>
+  <view class="titleView"><text class="titleText" space="ensp"> 04 坡道停车起步</text></view>
+  <view class="bodyText"><text space="ensp">    坡道和倒车入库是科目二的两头拦路虎，考试时要格外注意，特别是这两项的考试细节，一定要注意好，稍不留神就会前功尽弃。
+    (1）30cm边距
+  进入坡道时注意调整车身与边线30cm边距，看点的方法和侧方停车一样。在调整边距时注意观察右后视镜，防止车轮压线。
+    (2）坡道停车点
+    调整边线时，注意观察左后视镜停车点，当下沿与中间黄实线重合时停车，一定要踩死离合器和刹车。另外停车时，不要忽略了拉手刹。
+    (3）起步操作
+    起步时要特别注意，控制好离合器，如果起步熄火，要迅速将档位置于空挡，在30s内完成起步操作，如果起步溜车，迅速踩死离合器和刹车，在慢慢启动车子完成起步操作。
+    (4）下坡
+    下坡时注意要完全松开离合器，如果下坡时你越踩离合器车速越快，一定要放开离合器，通过刹车来控制车速。</text></view>
+  <view class="titleView"><text class="titleText" space="ensp"> 05 直角转弯</text></view>
+  <view class="bodyText"><text space="ensp">    这一项主要掌握好2点，一是转向灯，二是转弯点
+    (1）转向灯
+    即将进入直角转弯时，开启左/右转向灯，用左手无名指摁着，防止调整方向自动复位，语音提示进入直角转弯时，关闭转向灯，关闭时一定要注意不要关闭错误，这一项扣分的学员较多，一定要注意。
+    (2）30cm边线
+  进入直角转弯时，注意调整车身与边线30cm边距，看点方法和侧方停车，坡道停车一样。虽然这一项考试没有要求，但是调整到30cm边距，在打死方向时，车轮不会压线。
+    (3）左/右打死操作
+    当门把手与直角转弯线重合时，打死方向，当车轮均出直角转弯线时，方向迅速回正。</text></view>
+  <view class="titleView"><text class="titleText" space="ensp"> 06 曲线行驶</text></view>
+  <view class="bodyText"><text space="ensp">    这一项相对比较简单，进入曲线时，观察右水沟线与右边线重合行驶，随时微调方向，当行驶至曲线中间时，方向回正，观察左水沟线与左边线重合。</text></view>
+</view>
+<view class="bodyPart">
+  <view class="bodyTitle"><text>03</text></view>
+  <view class="imgView"><image class="bodyImg" src="../image/z73.png" /></view>
+  <view class="titleView"><text class="titleText" space="ensp"> 01 灯光考试</text></view>
+  <view class="bodyText"><text space="ensp">    在灯光上挂科的也是比较多的，在考试的时候是5组随机抽一组，在答题时只有5s时间，大家一定要掌握好，操作太慢容易超时，一定要把握好时间，针对一些学员对灯光不熟悉的，要多去驾校实际操作练习，科目三考试当天有2次考试机会，不要因为灯光浪费一次机会，这样第二次机会考试压力很大的。</text></view>
+  <view class="titleView"><text class="titleText" space="ensp"> 02 挂挡</text></view>
+  <view class="bodyText"><text space="ensp">    在变换档位时，一定要动作到位，如果动作不到位，很容易挂错或者挂不上档，在变换档位时一定要注意，不要低头看，看档位挂挡直接挂。</text></view>
+  <view class="titleView"><text class="titleText" space="ensp"> 03 离合器刹车油门踩法</text></view>
+  <view class="bodyText"><text space="ensp">    踩离合：左脚踩离合器，如果不是低速停车或者换挡，左脚一定要从离合器上拿开;右脚以脚跟为支点，放在正前方刹车位置，右脚掌往右斜踩就是油门，刹车高油门低，油门要轻踩快抬。
+    油离配合：换挡时，只有油门完全抬起，才可以踩下离合器换挡；加速时，只有离合器完全抬起，才可以踩下油门加速；油门和离合绝对不能同时踩，否则可能不及格。</text></view>
+  <view class="titleView"><text class="titleText" space="ensp"> 04 灯光使用</text></view>
+  <view class="bodyText"><text space="ensp">    在使用灯光时，一定要注意操作正确，在超速和变更车道时，开启转向灯，心里默念1.2.3.4个数后，再进行操作，要是转向灯不超过3s直接挂，这些小细节一定要谨记，在拨打转向灯时，为了防止转向灯归位可以使用左手无名指摁着。</text></view>
+</view>
+<view class="bodyPart">
+  <view class="bodyTitle"><text>04</text></view>
+  <view class="imgView"><image class="bodyImg" src="../image/z74.png" /></view>
+  <view class="titleView2"><text class="titleText" space="ensp"> 01 保持精神适度紧张</text></view>
+  <view class="bodyText"><text space="ensp">    在学员们不要认为科目三考完之后就 “万事大吉”，科目四简单准备一下就能通过。小编在这里要建议学员们一定要放平心态、保持适度紧张，在科目三考完之后让自己迅速且全神贯注的去准备科目四考试，乘胜追击、一举拿下。</text></view>
+  <view class="titleView2"><text class="titleText" space="ensp"> 02 巩固理论知识</text></view>
+  <view class="bodyText"><text space="ensp">    理论考试当然要“背”，但并不是“死记硬背”，学员在记忆知识点的时候最好能跟日常生活联系起来记忆，比如遇到车祸等突发状况时会怎么处理、在恶劣天气行车时会怎么做等等。</text></view>
+  <view class="titleView2"><text class="titleText" space="ensp"> 03 多做模拟题</text></view>
+  <view class="bodyText"><text space="ensp">    科目四的题目类型有判断题、单选题、多选题，内容类型有文字题、图片题、视频题。学员在考试之前要去做题库里面的习题，进行针对性的模拟训练，并对练习中出错的问题进行巩固。</text></view>
+  <view class="titleView2"><text class="titleText" space="ensp"> 04 掌握考试小技巧</text></view>
+  <view class="bodyText"><text space="ensp">    任何考试都要掌握一些小技巧，比如，题目一定要看全面、答完题目后要注意检查、设身处地的去思考题目等等，这些好习惯都能在学员考试中“加分”。</text></view>
+</view>
+<view class="blank"></view> -->
+<view>
+<image class="png" src="{{png1}}" mode="widthFix"></image>
+<image class="png" src="{{png2}}" mode="widthFix"></image>
+<image class="png" src="{{png3}}" mode="widthFix"></image>
+</view>

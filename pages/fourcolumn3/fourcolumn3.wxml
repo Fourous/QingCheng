@@ -1,0 +1,64 @@
+<!-- 
+<view class="titleFirst">
+  <text >青橙学车学车费用:</text>
+</view>
+<view  class="titleTime">
+  <text space="ensp">青橙学车  2019-08-23</text>
+</view>
+<image class="titleImg" src="../image/u101.png" />
+<image class="tips" src="../image/tips.png"></image>
+<view class="bodyPart">
+  <view class="headView"><image class="headImg" src="../image/z15.png" /></view>
+  <view class="bodyTitle"><image class="bodyTitleImg" src="../image/z11.png" /></view>
+  <view class="bodyText"><text space="ensp">   包括体检费、档案费、考试费、培训费、服务费、补训费，不包括补考费、模拟费。（补考费车管所收，模拟费考场收）
+    补考费：科目一120元 科目二150元 科目三230元 科目四免费。
+    模拟费：500元/小时，一般两圈半个小时左右。</text></view>
+  <view class="bodyTitle"><image class="bodyTitleImg" src="../image/z12.png" /></view>
+  <view class="bodyText"><text space="ensp">    周一至周日</text></view>
+  <view class="bodyTitle"><image class="bodyTitleImg" src="../image/z13.png" /></view>
+  <view class="bodyText"><text space="ensp">   1-6人/车，随到随学</text></view>
+  <view class="bodyTitle"><image class="bodyTitleImg" src="../image/z14.png" /></view>
+  <view class="bodyText"><text space="ensp">   全程定时定点接送</text></view>
+</view>
+<view class="bodyPart">
+  <view class="headView"><image class="headImg" src="../image/z16.png" /></view>
+  <view class="bodyTitle"><image class="bodyTitleImg" src="../image/z11.png" /></view>
+  <view class="bodyText"><text space="ensp">   包括体检费、档案费、考试费、培训费、服务费、补训费，不包括补考费、模拟费。（补考费车管所收，模拟费考场收）
+    补考费：科目一120元 科目二150元 科目三230元 科目四免费。
+    模拟费：500元/小时，一般两圈半个小时左右。</text></view>
+  <view class="bodyTitle"><image class="bodyTitleImg" src="../image/z12.png" /></view>
+  <view class="bodyText"><text space="ensp">    周一至周日</text></view>
+  <view class="bodyTitle"><image class="bodyTitleImg" src="../image/z13.png" /></view>
+  <view class="bodyText"><text space="ensp">   1-4人/车，随到随学</text></view>
+  <view class="bodyTitle"><image class="bodyTitleImg" src="../image/z14.png" /></view>
+  <view class="bodyText"><text space="ensp">   全程定时定点接送</text></view>
+</view>
+<view class="bodyPart">
+  <view class="headView"><image class="headImg" src="../image/z17.png" /></view>
+  <view class="bodyTitle"><image class="bodyTitleImg" src="../image/z11.png" /></view>
+  <view class="bodyText"><text space="ensp">   包括体检费、档案费、考试费、培训费、服务费、补训费，不包括补考费、模拟费。（补考费车管所收，模拟费考场收）
+    补考费：科目一120元 科目二150元 科目三230元 科目四免费。
+    模拟费：500元/小时，一般两圈半个小时左右。</text></view>
+  <view class="bodyTitle"><image class="bodyTitleImg" src="../image/z12.png" /></view>
+  <view class="bodyText"><text space="ensp">    周一至周日</text></view>
+  <view class="bodyTitle"><image class="bodyTitleImg" src="../image/z13.png" /></view>
+  <view class="bodyText"><text space="ensp">   1人/车，随到随学</text></view>
+  <view class="bodyTitle"><image class="bodyTitleImg" src="../image/z14.png" /></view>
+  <view class="bodyText"><text space="ensp">   全程定时定点接送</text></view>
+</view>
+<view class="bodyPart">
+  <view class="headView"><image class="headImg" src="../image/z18.png" /></view>
+  <view class="bodyTitle"><image class="bodyTitleImg" src="../image/z11.png" /></view>
+  <view class="bodyText"><text space="ensp">   包括体检费、档案费、考试费、培训费、服务费、补训费，不包括补考费、模拟费。</text></view>
+  <view class="bodyTitle"><image class="bodyTitleImg" src="../image/z12.png" /></view>
+  <view class="bodyText"><text space="ensp">    周一至周日</text></view>
+  <view class="bodyTitle"><image class="bodyTitleImg" src="../image/z13.png" /></view>
+  <view class="bodyText"><text space="ensp">   1-4人/车，随到随学</text></view>
+  <view class="bodyTitle"><image class="bodyTitleImg" src="../image/z14.png" /></view>
+  <view class="bodyText"><text space="ensp">   全程定时定点接送</text></view>
+</view>
+<view class="blank"></view> -->
+<view class="blank">
+<image class="png" mode="widthFix" src="{{png1}}"></image>
+<image class="png" mode="widthFix" src="{{png2}}"></image>
+</view>

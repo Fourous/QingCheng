@@ -1,0 +1,66 @@
+<!-- 
+<view class="titleFirst">
+  <text >青橙学车学车流程:</text>
+</view>
+<view  class="titleTime">
+  <text space="ensp">青橙学车  2019-08-23</text>
+</view>
+<image class="titleImg" src="../image/u101.png" />
+<view class="bodyPart">
+  <view class="bodyTitle"><text>01</text></view>
+  <view class="imgView"><image class="bodyImg" src="../image/z21.png" /></view>
+  <view class="showView"><image class="showImg1" src="../image/z31.png" /></view>
+  <view class="showView"><image class="showImg1" src="../image/z32.png" /></view>
+</view>
+<view class="bodyPart">
+  <view class="bodyTitle"><text>02</text></view>
+  <view class="imgView"><image class="bodyImg" src="../image/z22.png" /></view>
+   <view class="bodyText"><text space="ensp">   青橙学车是通过移动互联网技术开发的新型网络智能学车系统，平台秉承“学员至上”的宗旨让学员享受轻松、安全、便易的学车服务。
+    平台特色功能主要分为两大板块：</text></view>
+  <view class="bodyLittleTitle"><image class="bodyTitleImg" src="../image/z41.png" /></view>
+  <view class="bodyText"><text space="ensp">   学员根据自己的时间，随约随学，避免学员练车等待，提高学员练车效率，帮学员节约时间成本！</text></view>
+  <view class="bodyLittleTitle"><image class="bodyTitleImg" src="../image/z42.png" /></view>
+  <view class="bodyText"><text space="ensp">   平台内置网络营销系统，所有学员报名后自动生成属于自己的推广二维码。对于已报名学员A，如有B学员通过二维码报名，即可获得相应返利，学员B学员再推荐C学员报名，仍可获得相应返利!</text></view>
+  <view class="bodyText bold"><text space="ensp">   在这里你不仅可以把学费赚回来！
+还可以运营自己的团队！
+锻炼自己的综合能力！
+享受互联网经济的盛宴！</text></view>
+</view>
+<view class="bodyPart">
+  <view class="bodyTitle"><text>03</text></view>
+  <view class="imgView"><image class="bodyImg" src="../image/z23.png" /></view>
+  <view class="showView"><image  src="../image/z33.png" /></view>
+</view>
+<view class="bodyPart">
+  <view class="bodyTitle"><text>04</text></view>
+  <view class="imgView"><image class="bodyImg" src="../image/z24.png" /></view>
+  <view class="showView"><image class="showImg2" src="../image/z34.png" /></view>
+</view>
+<view class="bodyPart">
+  <view class="bodyTitle"><text>05</text></view>
+  <view class="imgView"><image class="bodyImg" src="../image/z25.png" /></view>
+  <view class="bodyLittleTitle"><image class="bodyTitleImg2" src="../image/z43.png" /></view>
+  <view class="bodyText"><text space="ensp">    用户通过登录小程序首页可以看到青橙学车的基本信息与介绍，以及近期相关系列活动。</text></view>
+  <view class="bodyLittleTitle"><image class="bodyTitleImg2" src="../image/z44.png" /></view>
+  <view class="bodyText"><text space="ensp">    用户可以通过小程序预约练车时间，避免练车等待，提高学车效率。</text></view>
+  <view class="bodyLittleTitle"><image class="bodyTitleImg2" src="../image/z45.png" /></view>
+  <view class="bodyText"><text space="ensp">    用户可以通过小程序填写个人信息，付款并报名享受青橙学车的优质服务。</text></view>
+  <view class="bodyLittleTitle"><image class="bodyTitleImg2" src="../image/z46.png" /></view>
+  <view class="bodyText"><text space="ensp">    用户可以通过小程序与青橙学车工作人员进行直接联系，了解更多政策信息。</text></view>
+  <view class="bodyLittleTitle"><image class="bodyTitleImg2" src="../image/z47.png" /></view>
+  <view class="bodyText"><text space="ensp">    用户可以通过小程序发表学车体验并查看其它学员的动态信息。</text></view>
+</view>
+<view class="bodyPart">
+  <view class="bodyTitle"><text>06</text></view>
+  <view class="imgView"><image class="bodyImg" src="../image/z26.png" /></view>
+  <view class="showView"><image class="showImg3" src="../image/z35.png" /></view>
+  <view class="bodyText bold"><text space="ensp"> 湖北省大学生创新创业俱乐部
+武汉理工大学创业学院
+楚天同创省级孵化器
+武汉市楚风星辰总校
+武汉市驾考协会</text></view>
+</view> -->
+<view class="blank">
+<image class="png" src="{{png1}}" mode="widthFix"></image>
+<image class="png" src="{{png2}}" mode="widthFix"></image>
+</view>

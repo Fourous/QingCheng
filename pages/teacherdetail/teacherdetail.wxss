@@ -1,0 +1,47 @@
+page {
+  width: 100%;
+  height: 100%;
+}
+
+.news{
+  width: 100%;
+  height: 35%;
+}
+
+.newsSwiper{
+  height: 100%;
+  width: 97%;
+  margin-left: 1.5%;
+}
+.newsList{
+  width: 100%;
+  margin-top: 40px;
+}
+.newsItem{
+  display: flex;
+  width: 90%;
+  height: 160rpx;
+  margin: 10px 0 14px 5%; 
+  border: 2px solid #E4E4E4;  
+  border-radius: 8px;
+}
+.itemText{
+  font-size: 15px;
+  margin-left: 7%;
+  margin-top: 61rpx;
+}
+.itemImg{
+  width: 30%;
+  height: 160rpx;
+  position: absolute;
+  right: 4.65%;
+  border-radius: 0px 8px 8px 0px;
+}
+.topimg {
+  width: 100%;
+  height: 100%;
+}
+.introduce{
+  height: 300rpx;
+  width: 98%;
+}

@@ -1,0 +1,67 @@
+page{
+  width: 100%;
+  overflow-x: hidden;
+  background-color: #ffffff;
+}
+.coachList{
+  /* margin-left: 30rpx; */
+  /* display: inline-block; */
+}
+.coachItem{
+  border-radius: 10px;
+  width: 85%;
+  height: 700rpx;
+  /* margin-top: 15px; */
+  /* margin-left: 40rpx; */
+  background-color: #ffffff;
+  border: 1px solid #E4E4E4;
+  margin: 0px auto;
+  margin-top: 30rpx;
+}
+.avater{
+  height: 230rpx;
+  width: 230rpx;
+  background-color: #E4E4E4;
+  /* margin-left: 190rpx; */
+  margin: 0px auto;
+  display: block;
+  margin-top: 30rpx;
+}
+.coachItem text{
+  /* font-size: 14px; */
+  /* line-height: 100rpx; */
+  width: 50%;
+  /* text-align: center; */
+}
+.coachInfo{
+  display: flex;
+  line-height: 100rpx;
+}
+.introduce{
+  /* margin: 0 50rpx 0 50rpx */
+  font-size: 14px;
+  width: 100%;
+  text-align: left;
+  display: block;
+}
+.name{
+  text-align: center;
+  font-size: 14px;
+}
+.btn{
+  background-color: rgb(110, 163, 224);
+  /* position: absolute; */
+  color:#ffffff;
+  border-radius: 5px;
+  right: 40px;
+  /* margin-top: 280rpx; */
+  width: 80px;
+  height: 30px;
+  text-align: center;
+  font-size: 20px;
+  margin: 0px auto;
+}
+.introduceview{
+  width: 100%;
+  /* height: 300px; */
+}

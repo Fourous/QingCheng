@@ -1,0 +1,179 @@
+{
+	"description": "项目配置文件。",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"enhance": false,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"coverView": true,
+		"autoAudits": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		}
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.0.4",
+	"appid": "wx3f4b70470b054d57",
+	"projectname": "QingCheng",
+	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": 0,
+			"list": [
+				{
+					"id": 0,
+					"name": "pages/threenewpack/threenewpack",
+					"pathName": "pages/threenewpack/threenewpack",
+					"scene": null
+				}
+			]
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 16,
+			"list": [
+				{
+					"id": -1,
+					"name": "pages/home/home",
+					"pathName": "pages/home/home",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/directlogin/directlogin",
+					"pathName": "pages/directlogin/directlogin",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/personal/personal/personal",
+					"pathName": "pages/personal/personal/personal",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/threenewpack/threenewpack",
+					"pathName": "pages/threenewpack/threenewpack",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/mytable/mytable",
+					"pathName": "pages/mytable/mytable",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/studycardetail/studycardetail",
+					"pathName": "pages/studycardetail/studycardetail",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/teacherPage/teacherPage",
+					"pathName": "pages/teacherPage/teacherPage",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/personal/personal/personal",
+					"pathName": "pages/personal/personal/personal",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/withUs/withUs",
+					"pathName": "pages/withUs/withUs",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/personal/scale/scale",
+					"pathName": "pages/personal/scale/scale",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/personal/myOrder/myOrder",
+					"pathName": "pages/personal/myOrder/myOrder",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/teacherindex/teacherlogin/teacherlogin",
+					"pathName": "pages/teacherindex/teacherlogin/teacherlogin",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/personal/orderForm/orderForm",
+					"pathName": "pages/personal/orderForm/orderForm",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/fourcolumn1/fourcolumn1",
+					"pathName": "pages/fourcolumn1/fourcolumn1",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/fourcolumn2/fourcolumn2",
+					"pathName": "pages/fourcolumn2/fourcolumn2",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/fourcolumn4/fourcolumn4",
+					"pathName": "pages/fourcolumn4/fourcolumn4",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/personal/feedback/feedback",
+					"pathName": "pages/personal/feedback/feedback",
+					"scene": null
+				}
+			]
+		}
+	}
+}

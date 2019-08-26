@@ -1,0 +1,40 @@
+<view class="container">
+  <view class="container" wx:if="{{applyState}}">
+    <image class="backgroundImg"  src="{{grouppg}}"></image>
+    <view class="somebutton">
+    <button class="gobtn" catchtap="Toapply">立即报名</button>
+    </view>
+  </view>
+  <view class="container inputArea" wx:if="{{!applyState}}">
+    <form bindsubmit="changeInput">
+      <view class="inputcolumn">
+        <text space="emsp" > 姓名：</text>
+        <input class="nameInput" name="name" style="width:200rpx;" maxlength="4" type="text" value="" confirm-type="next" />
+        <text space="emsp"> 性别：</text>
+        <checkbox-group bindchange="checkSex">
+          <checkbox value="0" />男
+          <checkbox value="1" />女
+        </checkbox-group>
+      </view>
+      <view class="inputcolumn">
+        <text space="emsp">身份证：</text>
+        <input class="" name="idcard" type="idcard" value="" />
+      </view>
+      <view class="inputcolumn">
+        <text space="emsp" > 学校：</text>
+        <input class="" name="school" type="text" value="" />
+      </view>
+      <view class="inputcolumn">
+        <text space="emsp"> 校区：</text>
+        <input class="" name="address" type="text" value="" />
+      </view>
+      <view class="inputcolumn">
+        <text space="emsp"> 年级：</text>
+        <input class="" name="grade" type="text" value="" />
+      </view>
+      <button class="applyButton" form-type="submit">
+        提交
+      </button>
+    </form>
+  </view>
+</view>

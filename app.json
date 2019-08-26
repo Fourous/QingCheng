@@ -1,0 +1,111 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/home/home",
+    "pages/logs/logs",
+    "pages/studycar/study",
+    "pages/friend/friend",
+    "pages/onepeople/onepeople",
+    "pages/fourpeople/fourpeople",
+    "pages/group/group",
+    "pages/entryform/entryform",
+    "pages/teacherdetail/teacherdetail",
+    "pages/orderteacher/orderteacher",
+    "pages/personal/personal/personal",
+    "pages/personal/chteacher/chteacher",
+    "pages/personal/feedback/feedback",
+    "pages/personal/myaffair/myaffair",
+    "pages/personal/myround/myround",
+    "pages/login/firstlogin/firstlogin",
+    "pages/login/register/register",
+    "pages/login/forgetpasswd/forgetpasswd",
+    "pages/login/certification/certification",
+    "pages/test/test",
+    "pages/directlogin/directlogin",
+    "pages/formpay/formpay",
+    "pages/friend/my_message",
+    "pages/ad",
+    "pages/advertise/advertise",
+    "pages/mycir/mycir",
+    "pages/morecomment/morecomment",
+    "pages/bindteacher/bindteacher",
+    "pages/carpackage/carpackage",
+    "pages/mytable/mytable",
+    "pages/studycardetail/studycardetail",
+    "pages/cardetailone/cardetailone",
+    "pages/teacherindex/teacherlogin/teacherlogin",
+    "pages/teacherindex/teachertable/teachertable",
+    "pages/personal/changeone/changeone",
+    "pages/packagenew",
+    "pages/packagenew/packagenew",
+    "pages/packagenewstruct/packagenewstruct",
+    "pages/joinus/joinus",
+    "pages/formsubmit/formsubmit",
+    "pages/car_goods/car_goods",
+    "pages/carteam/carteam",
+    "pages/teampay/teampay",
+    "pages/myteam/myteam",
+    "pages/jointeam/jointeam",
+    "pages/problems/problems",
+    "pages/jointeamdes/jointeamdes",
+    "pages/threenewpack/threenewpack",
+    "pages/resume/resume",
+    "pages/webview/webview",
+    "pages/webviewt/webviewt",
+    "pages/fourcolumn1/fourcolumn1",
+    "pages/fourcolumn2/fourcolumn2",
+    "pages/fourcolumn3/fourcolumn3",
+    "pages/fourcolumn4/fourcolumn4",
+    "pages/menberThinking/menberThinking",
+    "pages/teacherThinking/teacherThinking",
+    "pages/enterCooperate/enterCooperate",
+    "pages/withUs/withUs",
+    "pages/teacherPage/teacherPage",
+    "pages/personal/myOrder/myOrder",
+    "pages/personal/scale/scale",
+    "pages/personal/myTeam/myTeam",
+    "pages/personal/orderForm/orderForm"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "青橙学车",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#F6CA71",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "青橙学车",
+        "iconPath": "pages/image/tab5.png",
+        "selectedIconPath": "pages/image/tab1.png"
+      },
+      {
+        "pagePath": "pages/teacherdetail/teacherdetail",
+        "text": "青橙资讯",
+        "iconPath": "pages/image/tab6.png",
+        "selectedIconPath": "pages/image/tab2.png"
+      },
+      {
+        "pagePath": "pages/personal/personal/personal",
+        "text": "个人中心",
+        "iconPath": "pages/image/tab8.png",
+        "selectedIconPath": "pages/image/tab4.png"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "青橙卓越驾校平面图"
+    }
+  },
+   "sitemapLocation": "sitemap.json",
+   "text": {
+    "pagePath": "pages/friend/friend",
+    "text": "青橙校园",
+    "iconPath": "pages/image/tab7.png",
+    "selectedIconPath": "pages/image/tab3.png"
+  }
+}
+

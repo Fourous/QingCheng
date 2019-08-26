@@ -1,0 +1,15 @@
+<view class="coachList">
+  <view class="coachItem" wx:for="{{coachList}}" >
+    <image class="avater" src="{{item.avatar}}"></image>
+    <view class="coachInfo">
+      <text class="name">姓名: {{item.tname}}</text>
+      <text  class="name">性别: {{item.gender}}</text>
+    </view>
+    <view class="introduceview">
+    <text class="introduce" space="ensp"> 个人介绍:</text>
+    <text class="introduce" space="ensp" style="margin-bottom:10px"> {{item.introduce}}</text>
+    </view>
+
+    <view class="btn" bindtap="bindCoach" data-id="{{item.carid}}">报名</view>
+  </view>
+</view>

@@ -1,0 +1,217 @@
+/* pages/personal/personal/personal.wxss */
+page{
+  width: 100%;
+  height: 100%;
+  background-color: #E4E4E4;
+}
+
+.userinfobackclass {
+  top: 0px;
+  position: fixed;
+  z-index: -1111;
+  height: 365rpx;
+  width: 100%;
+
+}
+.userInfoPic {
+  z-index: -19;
+  /* margin-top: 130rpx; */
+  /* margin-left: 2.5%; */
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  /* border-radius: 0rpx 0rpx 50rpx 50rpx; */
+}
+.userform {
+  height: 100%;
+  width: 100%;
+  /* position: fixed; */
+}
+
+.userinfo {
+  height: 330rpx;
+  padding: 15rpx 0rpx 20rpx 30rpx;
+}
+
+/*下面三行是居中操作，重点的三段*/
+.balance_integral_coupon {
+  position: relative;
+  height: 85rpx;
+ /* background-color: #73d2fe;*/
+  text-align: left;
+  margin-top: 28%;
+  /* margin-bottom: 20%; */
+  width: 90%;
+  margin-left: 3%;
+}
+
+.data_n {
+ width:25%;
+display: inline-block;
+font-size: 12px;
+font-weight: 600;
+color: white;
+padding-top: 3rpx;
+text-align: center
+}
+
+.balance {
+  display: inline-block;
+  width: 100%;
+  margin-top: 5px;
+  padding-left: 2px;
+  padding-right: 2rpx;
+  font-size: 12px;
+}
+
+.userInfo__name {
+  width: 93%;
+  display: flex;
+  padding-left: 10rpx;
+  padding-top: 10rpx;
+}
+.useravatar{
+  height: 90rpx;
+  width:90rpx;
+  margin-left: 20px;
+  margin-top: 5px;
+  text-align: center;
+  border-radius: 50%;
+}
+.nameAndSchool{
+  font-size: 20px;
+  color: black;
+  margin: 15px 0 0 15px;
+}
+.nameAndSchool text{
+  margin-left: 10px;
+}
+.leaveIcon{
+  position: absolute;
+  top: 22px;
+  right: 34px;
+}
+.leaveIcon image{
+   height: 40rpx;
+  width: 50rpx;
+}
+.userinfo_nickname{
+   color: blanchedalmond;
+   font-size: 15px;
+}
+.is_vip{
+  height: 30rpx;
+  width:30rpx;
+}
+
+
+.teacher_ {
+  font-size: 14px;
+  text-align: left;
+  font-weight: 500
+}
+.is_teacher {
+  font-size: 13px;
+  margin-left: 8rpx;
+  text-align: right;
+  font-weight: 500
+}
+
+.leftuserinfo{
+  position: relative;
+  height: 145rpx;
+  width: 100%;
+}
+.moneyPart{
+  width: 83%;
+  margin-left: 7%;
+  margin-top: 10px;
+  height: 300rpx;
+  font-size: 17px;
+  color: #ffffff;
+}
+.moneyPart1{
+  height: 160rpx;
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 25rpx;
+  border-bottom: 1px solid #E4E4E4;
+}
+.moneyPart2{
+  font-size: 15px;
+  margin-top:15px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.moneyCanCash{
+
+}
+.moneyNumber{
+  font-size: 40px;
+}
+.cash{
+  position: absolute;
+  right: 30px;
+  text-align: center;
+  width: 80px;
+  top:240rpx;
+  border-radius: 10px;
+  height: 24px;
+  font-size: 16px;
+  color: white;
+  border: 1px solid #ffffff;
+}
+.issign {
+  float: right;
+  width: 20%;
+}
+.is_conclude {
+  height: 30rpx;
+  font-size: 15px;
+  top: 0px;
+}
+.meauBar {
+  margin-left:30rpx;
+  /* display: inline-block; */
+  margin-top: 20px;
+}
+.change {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 10px;
+  float: left;
+  width: 215rpx;
+  height: 180rpx;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  background-color: #ffffff;
+  border: 1px solid #E4E4E4;
+  /*box-shadow: 5px 5px 5px #888888;
+  border-bottom: 5rpx solid rgb(190 ,190, 190);*/
+}
+._img{
+  margin-top: 30rpx;
+  height: 60rpx;
+  width: 100%;
+  text-align: center;
+}
+._txt {
+  font-size: 15px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20rpx;
+}
+
+.picandicon{
+  height: 50rpx;
+  width: 50rpx;
+}
+
+
+
+

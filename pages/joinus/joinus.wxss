@@ -1,0 +1,102 @@
+/* pages/joinus/joinus.wxss */
+page{
+  height: 100%;
+  width: 100%;
+}
+.backgr{
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  z-index: -111;
+}
+.up_pack{
+  height: 85%;
+  width: 100%;
+}
+.down_pack{
+  height: 49%;
+  width: 100%;
+}
+
+.button{
+  height: 135px;
+  width: 100%;
+  /* background-color:#09ADF9; */
+  /* border-radius: 4%; */
+}
+.txt{
+  display: block;
+}
+.topjoinus{
+  height: 100%;
+  width: 100%;
+}
+.btntext{
+  font-size: 20px;
+  line-height: 110px;
+}
+.twochoice{
+  display: flex;
+}
+
+.detail{
+  height: 650rpx;
+  width: 100%;
+  /* margin:0px auto; */
+  display: flex;
+}
+.detailimage{
+  justify-content: flex-start;
+  height: 85rpx;
+  width: 305rpx;
+  margin-top: 35rpx;
+}
+.detailtxt{
+  font-size: 18px;
+  /* margin-left: 25rpx; */
+  text-align: center;
+  margin: 0px auto;
+}
+.submitview{
+  height: 200rpx;
+  width: 100%;
+
+}
+.submit{
+  /* float: right; */
+  height: 85rpx;
+  width: 80%;
+  /* margin-right: 30rpx; */
+  font-size: 15px;
+  line-height: 85rpx;
+  margin-top: 35rpx;
+  border-radius: -10%;
+  background-color: #ff9900;
+}
+.choice1{
+width: 80%;
+text-align: center;
+background-color: #09ADF9;
+height: 90rpx;
+line-height: 90rpx;
+margin: 0px auto;
+}
+.choice2{
+width: 80%;
+text-align: center;
+background-color: #09ADF9;
+height: 90rpx;
+line-height: 90rpx;
+margin: 0px auto;
+}
+.bluetxt{
+  text-align: center;
+  color: #09ADF9;
+}
+.choice{
+  width: 49.9%;
+text-align: center;
+/* background-color: #09ADF9; */
+height: 90rpx;
+line-height: 90rpx;
+}

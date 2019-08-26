@@ -1,0 +1,38 @@
+<!--pages/orderteacher/orderteacher.wxml-->
+<view class="maintainer">
+  <view class="sign">
+    <view>提示:</view>
+    <text space="emsp">  请根据自身空闲时间以及各时间段已预约人数，在今晚20:00之前合理预约明日课表！</text>
+  </view>
+  <view class='timeTable'>
+    <view class='timeList coarse'>
+      <view class="timeItem">预约课表</view>
+      <view class="timeItem">已预约</view>
+      <view class="timeItem">预约</view>
+    </view>
+    <view class='timeList'>
+      <view class="timeItem">08:00-09:50</view>
+      <view class="timeItem">{{orderList[0].num}}</view>
+      <view class="timeItem"><checkbox checked="{{orderState[0]}}"bindtap="checkBoxChange" disabled="{{orderList[0].state}}" id="0" class="timeCheck" color="black"></checkbox></view>
+    </view>
+    <view class='timeList'>
+      <view class="timeItem">10:00-11:50</view>
+      <view class="timeItem">{{orderList[1].num}}</view>
+     <view class="timeItem"><checkbox checked="{{orderState[1]}}" bindtap="checkBoxChange" disabled="{{orderList[1].state}}" id="1" class="timeCheck" color="black"></checkbox></view>
+    </view>
+    <view class='timeList'>
+      <view class="timeItem">15:00-16:30</view>
+      <view class="timeItem">{{orderList[2].num}}</view>
+     <view class="timeItem"><checkbox checked="{{orderState[2]}}" bindtap="checkBoxChange" disabled="{{orderList[2].state}}" id="2" class="timeCheck" color="black"></checkbox></view>
+    </view>
+    <view class='timeList'>
+      <view class="timeItem">16:40-18:00</view>
+      <view class="timeItem">{{orderList[3].num}}</view>
+     <view class="timeItem"><checkbox checked="{{orderState[3]}}" bindtap="checkBoxChange" disabled="{{orderList[3].state}}" id="3" class="timeCheck" color="black"></checkbox></view>
+    </view>
+  </view>
+  <view class="warming" wx:if="{{warming}}"></view>
+</view>
+<view class='btn'>
+  <button class='button' bindtap='confirm'>确认预约</button>
+</view>

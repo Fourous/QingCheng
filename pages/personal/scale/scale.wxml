@@ -1,0 +1,7 @@
+
+<view class="container">
+<image class="backg" src="{{scanback}}"></image>
+  <view class="imgview">
+    <image class="scaleImg" src="{{scaleImgUrl}}"></image>
+  </view>
+</view>

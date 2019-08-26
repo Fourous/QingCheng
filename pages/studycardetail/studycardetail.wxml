@@ -1,0 +1,20 @@
+<!--pages/studycardetail/studycardetail.wxml-->
+<view id='trainingList'>
+<!--这里是静态测试设置view-->
+  <view class="trainingItem"  wx:for="{{cardetail}}" data-id="{{item.id}}" wx:key="{{item.id}}" >
+    <view class='introduction'>
+      <image class='introductionPic' src='{{item.intropic}}' mode="aspectFill" />
+      <view class='introductionText'>
+        <view class='text1'><text >{{item.introduce}}\n</text></view>
+        <view class='text2'><text  space="ensp">{{item.introducedetail1}}</text></view>
+      </view>
+
+      </view>
+        <view class="colomnflex">
+      <button class='locationBtn'  data-id="{{item.id}}" catchtap='tocardetailone'>位置</button>
+       <button class='locationBtn'  data-id="{{item.id}}" bindap='To_cardetail_detail' catchtap="enterTraining">教练</button>
+    </view>    
+  </view>
+</view>
+
+

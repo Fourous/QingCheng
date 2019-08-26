@@ -1,0 +1,33 @@
+<view class="coachInfo">
+  <image class="avater" src="{{avatarUrl}}" />
+  <view class="coachText">
+    <text space="ensp">姓名: {{coachInfo.coachname}}</text>
+    <text space="ensp">训练场: {{coachInfo.coachaddress}}</text>
+  </view>
+</view>
+<view class="warming">
+  <text>提示：</text>
+  <text space="ensp">    请准时前往训练场，合理安排学员训练时间！</text>
+</view>
+<view class='timeTable'>
+    <view class='timeList coarse'>
+      <view class="timeItem">预约课表</view>
+      <view class="timeItem">预约</view>
+    </view>
+    <view class='timeList'>
+      <view class="timeItem">08:00-09:50</view>
+      <view class="timeItem">{{coachOrder[0].num}}</view>
+    </view>
+    <view class='timeList'>
+      <view class="timeItem">10:00-11:50</view>
+      <view class="timeItem">{{coachOrder[1].num}}</view>
+    </view>
+    <view class='timeList'>
+      <view class="timeItem">15:00-16:30</view>
+      <view class="timeItem">{{coachOrder[2].num}}</view>
+    </view>
+    <view class='timeList'>
+      <view class="timeItem">16:40-18:00</view>
+      <view class="timeItem">{{coachOrder[3].num}}</view>
+    </view>
+  </view>

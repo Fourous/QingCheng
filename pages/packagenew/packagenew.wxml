@@ -1,0 +1,26 @@
+<!--pages/packagenew/packagenew.wxml-->
+
+<view class='all'>
+
+<view class='item' >
+<view class='instruct' bindtap='packagenew1'>
+<image class='packpng' src='../image/packpng1.png'></image>
+</view>
+</view>
+
+
+<view class='item' >
+<view class='instruct' bindtap='packagenew2'>
+<image class='packpng' src='../image/packpng2.png'></image>
+</view>
+</view>
+
+
+<view class='item'>
+<view class='instruct' bindtap='packagenew3'>
+<image class='packpng' src='../image/packpng3.png'></image>
+</view>
+</view>
+
+
+</view>

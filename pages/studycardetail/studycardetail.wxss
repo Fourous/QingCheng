@@ -1,0 +1,62 @@
+.page{
+  width: 100%;
+  overflow-y: hidden;
+}
+.trainingList{
+  width: 100%;
+}
+.trainingItem{
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+  border: solid 2px #E5E5E5;
+  margin: 15px 13px 5px 13px;
+  padding: 15px;
+  height: 330rpx;
+  width: 85%;
+}
+.introduction{
+  display: flex;
+  align-content: space-between;
+}
+.introductionPic{
+  margin-top: 20rpx;
+  background-color: #E5E5E5;
+  width: 220rpx;
+  height: 220rpx;
+}
+.introductionText{
+  margin-top: 10px;
+  margin-left: 20px;
+  width: 400rpx;
+  line-height: 17px;
+}
+.text1{
+  font-size: 17px;
+  text-align: center;
+}
+.text2{
+  margin-top: 10px;
+  font-size: 11px;
+  width: 400rpx;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto; 
+}
+.locationBtn{
+  /* margin-left: 18px; */
+  /* margin-top: 25px; */
+  /* width: 55px; */
+  /* height: 35px; */
+  background-color: #F6CA71;
+  color:#ffffff;
+  text-align: center;
+  font-size: 13px;
+  line-height: 35px;
+}
+.teacherPage{
+  width: 100%;
+}
+.colomnflex{
+  display: flex;
+  /* flex-direction: column; */
+  margin-top: 15px;
+}

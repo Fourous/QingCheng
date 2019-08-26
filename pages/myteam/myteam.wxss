@@ -1,0 +1,110 @@
+/* pages/myteam/myteam.wxss */
+page{
+  height: 100%;
+  width: 100%;
+}
+.background{
+  /* height: 100%;
+  width: 100%;
+  background-color: #eee; */
+}
+.sometip{
+  /* margin-top: 400rpx; */
+  text-align: center;
+}
+.txt{
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 100rpx;
+}
+.findteam{
+height: 100rpx;
+width: 357rpx;
+background-color: #ff9900;
+color: white;
+line-height: 100rpx;
+font-size: 13px;
+margin: 0px auto;
+margin-top: 50rpx;
+}
+
+.namelist{
+  /* width: 80%; */
+  margin: 0px auto;
+  /* height: 300rpx; */
+  /* display: flex; */
+}
+.name{
+  font-size: 14px;
+}
+.invite{
+  height: 110rpx;
+  width: 100%;
+  display: flex;
+}
+.invitebtn{
+ height: 80rpx;
+  width: 30%;
+  border-radius: -10%;
+  line-height: 80rpx;
+  font-size: 13px;
+  color: white;
+  background-color: #ff9900;
+}
+.choosebtn{
+  height: 80rpx;
+  width: 30%;
+  border-radius: -10%;
+  line-height: 80rpx;
+  font-size: 13px;
+  color: white;
+  background-color: #09ADF9;
+}
+.title{
+  /* position: absolute; */
+  top: 0px;
+  height: 530rpx;
+  width: 96%;
+  text-align: center;
+  margin: 0px auto;
+  border: solid 1rpx black;
+}
+.introtop{
+  font-size: 20px;
+  font-weight: bolder;
+  
+}
+.introduce{
+  font-size: 13px;
+  display: block;
+  line-height: 55rpx;
+  font-weight: bold;
+  margin-left: 20rpx;
+}
+.next{
+  text-align: left;
+  margin-top: 25rpx;
+}
+.tit{
+  font-size: 20px;
+  font-weight: bold;
+}
+.list{
+  margin-top: 50rpx;
+  height: 400rpx;
+  display: flex;
+}
+.listavatar{
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 100%;
+}
+.teamone{
+  height: 200rpx;
+  width: 200rpx;
+  text-align: center;
+}
+.name{
+  display: block;
+  width: 100%;
+}

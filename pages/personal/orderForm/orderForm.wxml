@@ -1,0 +1,17 @@
+<view class="orderList">
+  <view wx:for="{{orderList}}" class="orderItem">
+    <view class="itemText1">
+      <text style="margin-top: 13px;">订单编号：{{}}</text>
+      <view>
+        订单收益：<image class="moneyImg" src="../../image/money.png" /> <text class="moneyText">{{}}123</text>
+      </view>
+    </view>
+    <view class="itemText2">
+      <view style="display:flex;">
+        <image class="avatar" />
+        <text class="textCenter">推广人：{{}}</text>
+      </view>
+      <text class="textCenter">{{}}2019.08.21</text>
+    </view>
+  </view>
+</view>

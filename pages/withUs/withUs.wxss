@@ -1,0 +1,66 @@
+page, .container{
+  height: 100%;
+  width: 100%;
+  background-color: #E4E4E4
+}
+.backgroundImg{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+.inputArea{
+  margin-top: 100px;
+}
+.button{
+  position: absolute;
+  bottom: 40rpx;
+  right: 50rpx;
+  width: 30%;
+  height: 70rpx;
+}
+.inputcolumn{
+  padding-right: 10px;
+  display: flex;
+  margin: 20px 10px 10px 10px;
+  width: 100%;
+}
+
+.inputcolumn input {
+  background-color: #ffffff;
+  padding: 1px 2px 1px 3px;
+  width: 500rpx;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 2px;
+  border: solid 1.2px #E5E5E5;
+}
+.nameInput{
+  width: 30%;
+}
+.applyButton{
+  position: absolute;
+  text-align: center;
+  color: #ffffff;
+  font-weight: bold;
+  background-color: #FF6600;
+  right: 70rpx;
+  bottom: 100rpx;
+  width: 200rpx;
+  height: 90rpx;
+}
+.gobtn{
+  /* position: absolute; */
+  /* top: 400px; */
+  margin: 0px auto;
+  border-radius: 5px;
+  width: 100%;
+  background-color: #FF6600;
+  color: #eee;
+  height: 45px;
+  line-height: 45px;
+  top: 365px;
+}
+.somebutton{
+  height: 100%;
+  width: 280rpx;
+  margin: 0px auto;
+  position: relative;
+}

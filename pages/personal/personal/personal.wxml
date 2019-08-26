@@ -1,0 +1,85 @@
+<view class='userform'>
+<image class='userInfoPic'src="{{userinfoback}}"></image>
+  <view class='leftuserinfo'>
+    <view class='userInfo__name'>
+      <image class='useravatar' src="{{userInfo.avatarUrl}}" bindtap='usersetup'></image>
+      <view class="nameAndSchool" bindtap="changenickname">
+        <text>{{nickname}}</text>
+      </view>
+      <view class="leaveIcon" bindtap="Toback">
+        <image src='../../image/back.png'  ></image>
+      </view>
+    </view>
+    <view class="moneyPart">
+      <view class="moneyPart1">
+        <text class="moneyCanCash">可提现佣金：</text>
+        <text class="moneyNumber">{{}}</text>
+        <view class="cash">立即提现</view>
+      </view>
+      <view class="moneyPart2"><text class="allCash">累计佣金：{{}}元</text><text class="cashed">已提现的佣金：{{}}元</text></view>
+    </view>
+    <view class='issign'>
+      <text class='userinfo_nickname'>{{if_apply}}</text>
+    </view>
+  </view>
+
+    <!--这里是下方的一系列的功能，包括商城转盘等功能-->
+  <view class='meauBar'>
+    <view class='change' bindtap='ToOrder'>
+      <view class='_img' style='vertical-align:top;'>
+        <image src='../../image/u341.png'class='picandicon' ></image>
+      </view>
+      <view class='_txt' style='vertical-align:top;' >我的预约</view>
+    </view>
+    <view class='change'bindtap='ToScale'>
+      <view class='_img' style='vertical-align:top;'>
+        <image src='../../image/u2.png' class='picandicon'></image>
+      </view>
+      <view class='_txt' style='vertical-align:top;' >二维码</view>
+    </view>
+    <view class='change' bindtap='ToMyTeam'>
+      <view class='_img' style='vertical-align:top;'>
+        <image src='../../image/u3.png' class='picandicon'></image>
+      </view>
+      <view class='_txt' style='vertical-align:top;' >我的团队</view>
+    </view>
+    <view class='change'  bindtap='toOrderform'>
+      <view class='_img' style='vertical-align:top;'>
+        <image src='../../image/u4.png' class='picandicon'></image>
+      </view>
+      <view class='_txt' style='vertical-align:top;'>分销订单</view>
+    </view>
+    <view class='change'  bindtap='ToStudent'>
+      <view class='_img' style='vertical-align:top;'>
+        <image src='../../image/u5.png'class='picandicon' ></image>
+      </view>
+      <view class='_txt' style='vertical-align:top;'>学习进程</view>
+    </view>
+    <view class='change' bindtap='Tocustom'>
+      <view class='_img' style='vertical-align:top;'>
+        <image src='../../image/u6.png' class='picandicon'></image>
+      </view>
+      <view class='_txt' style='vertical-align:top;' >我的客服</view>
+    </view>
+    <view class='change'  bindtap='Tofun'>
+        <view class='_img' style='vertical-align:top;'>
+          <image src='../../image/u7.png' class='picandicon'></image>
+        </view>
+        <view class='_txt' style='vertical-align:top;'>优惠券</view>
+    </view>
+  
+    <view class='change' bindtap='Tofeedback'>
+      <view class='_img' style='vertical-align:top;'>
+        <image src='../../image/u8.png' class='picandicon'></image>
+      </view>
+      <view class='_txt' style='vertical-align:top;' >反馈建议</view>
+    </view>
+
+    <view class='change' bindtap='Toteacherorder'>
+      <view class='_img' style='vertical-align:top;'>
+        <image src='../../image/u9.png' class='picandicon' ></image>
+      </view>
+      <view class='_txt' style='vertical-align:top;' >我是教练</view>
+    </view> 
+  </view>
+</view>

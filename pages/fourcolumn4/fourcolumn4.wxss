@@ -1,0 +1,89 @@
+page{
+  width: 100%;
+  /* margin-left: 5%; */
+  overflow-x: hidden;
+}
+.titleFirst{
+  font-size: 28px;
+  margin-top: 15px;
+}
+.titleTime{
+  font-size: 18px;
+  margin-top: 10px;
+  color: #868686;
+}
+.titleImg{
+  margin-top: 10px;
+  width: 90%;
+  margin-bottom: 5px;
+}
+.bodyPart{
+  margin-top: 13px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+}
+.bodyTitle{
+  text-align: center;
+  font-size: 26px;
+  color: #868686;
+}
+.bodyLittleTitle{
+  margin-top: 10px;
+  margin-bottom: 7px;
+  text-align: left;
+  font-size: 26px;
+}
+.bodyTitleImg{
+  width: 340rpx;
+  height: 45rpx;
+}
+.bodyImg{
+  height: 140rpx;
+  width: 600rpx;
+  margin-left: -70rpx;
+}
+.imgView{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.bodyText{
+  text-align: left;
+  font-size: 17px;
+  line-height: 25px;
+}
+.blank{
+  height: 200rpx;
+}
+.titleView{
+  margin-top: 20px;
+  margin-bottom: 14px;
+  height: 50rpx;
+  width: 250rpx;
+  min-width: 250rpx;
+  text-align: left;
+  font-size: 17px;
+  background-color: #0CC3C7;
+  color: #ffffff;
+}
+.titleView2{
+  margin-top: 20px;
+  margin-bottom: 14px;
+  height: 50rpx;
+  width: 330rpx;
+  min-width: 250rpx;
+  text-align: left;
+  font-size: 17px;
+  background-color: #0CC3C7;
+  color: #ffffff;
+}
+.titleText{
+  width: auto;
+}
+.png{
+  width: 100%;
+  /* height: 4330rpx; */
+  margin: 0px auto;
+}

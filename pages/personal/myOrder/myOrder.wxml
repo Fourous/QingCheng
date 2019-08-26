@@ -1,0 +1,22 @@
+<view class='timeTable'>
+    <view class='timeList coarse'>
+      <view class="timeItem">预约课表</view>
+      <view class="timeItem">预约</view>
+    </view>
+    <view class='timeList'>
+      <view class="timeItem">08:00-09:50</view>
+      <view class="timeItem"><checkbox checked="{{myOrder[0].state}}"bindtap="checkBoxChange" disabled="1" id="0" class="timeCheck" color="black"></checkbox></view>
+    </view>
+    <view class='timeList'>
+      <view class="timeItem">10:00-11:50</view>
+     <view class="timeItem"><checkbox checked="{{myOrder[0].state}}" bindtap="checkBoxChange" disabled="1" id="1" class="timeCheck" color="black"></checkbox></view>
+    </view>
+    <view class='timeList'>
+      <view class="timeItem">15:00-16:30</view>
+     <view class="timeItem"><checkbox checked="{{myOrder[0].state}}" bindtap="checkBoxChange" disabled="1" id="2" class="timeCheck" color="black"></checkbox></view>
+    </view>
+    <view class='timeList'>
+      <view class="timeItem">16:40-18:00</view>
+     <view class="timeItem"><checkbox checked="{{myOrder[0].state}}" bindtap="checkBoxChange" disabled="1" id="3" class="timeCheck" color="black"></checkbox></view>
+    </view>
+  </view>

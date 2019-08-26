@@ -1,0 +1,55 @@
+page{
+  width: 100%;
+}
+.title{
+  height: 100rpx;
+  font-size: 22px;
+  padding-top: 20px;
+  padding-left: 30px;
+  background-color: #E4E4E4;
+}
+.orderList{
+  width: 100%;
+}
+.orderItem{
+  padding-left: 13px;
+  padding-right: 8px;
+  margin-top: 15px;
+  height: 230rpx;
+  border: 1px solid #E4E4E4;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.itemText1{
+  font-size: 17px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.itemText2{
+  font-size: 17px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.avatar{
+  width: 80rpx;
+  height: 80rpx;
+  background-color: gold;
+  margin-right: 10px;
+}
+.moneyImg{
+  width: 40rpx;
+  height: 50rpx;
+}
+.moneyText{
+  font-size: 30px;
+  color: red;
+}
+.textCenter{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}

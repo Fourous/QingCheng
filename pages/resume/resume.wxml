@@ -1,0 +1,12 @@
+<!--pages/resume/resume.wxml-->
+<!-- <text>pages/resume/resume.wxml</text> -->
+<view class='all'>
+<!-- <view wx:for="{{resumefor}}" wx:key="{{i}}"> -->
+<image class='png' src="{{sw1}}"></image>
+<image class='png' src="{{sw2}}"></image>
+<image class='png' src="{{sw3}}"></image>
+<image class='png' src="{{sw4}}"></image>
+<image class='png' src="{{sw5}}"></image>
+<image class='png' src="{{sw6}}"></image>
+<!-- </view> -->
+</view>

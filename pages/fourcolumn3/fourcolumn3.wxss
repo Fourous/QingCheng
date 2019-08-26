@@ -1,0 +1,71 @@
+page{
+  width: 100%;
+  /* margin-left: 5%; */
+  overflow-x: hidden;
+}
+.titleFirst{
+  font-size: 28px;
+  margin-top: 15px;
+}
+.titleTime{
+  font-size: 18px;
+  margin-top: 10px;
+  color: #868686;
+}
+.titleImg{
+  margin-top: 10px;
+  width: 90%;
+  margin-bottom: 5px;
+}
+.bodyPart{
+  margin-top: 13px;
+  margin-bottom: 50px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+}
+.headImg{
+  width: 650rpx;
+  height: 140rpx;
+}
+.bodyTitle{
+  margin-top: 10px;
+  margin-bottom: 7px;
+  text-align: left;
+  font-size: 26px;
+  color: #868686;
+}
+.bodyTitleImg{
+  width: 200rpx;
+  height: 43rpx;
+}
+.bodyImg{
+  height: 65rpx;
+  width: 200rpx
+}
+.imgView{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.bodyText{
+  text-align: left;
+  font-size: 17px;
+  line-height: 25px;
+}
+.blank{
+  height: 150rpx;
+}
+.tips{
+  margin-top: 10px;
+  height: 220rpx;
+  width: 600rpx;
+  margin-bottom: 10px;
+}
+.png{
+  width: 100%;
+  /* height: 4330rpx; */
+  margin: 0px auto;
+}
