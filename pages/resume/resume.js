@@ -12,7 +12,6 @@ Page({
     sw4: "https://qczby.oss-cn-shenzhen.aliyuncs.com/Agreement/0_4.png",
     sw5: "https://qczby.oss-cn-shenzhen.aliyuncs.com/Agreement/0_5.png",
     sw6: "https://qczby.oss-cn-shenzhen.aliyuncs.com/Agreement/0_6.png",
-
   },
 
   /**
