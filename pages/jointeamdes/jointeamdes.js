@@ -22,6 +22,10 @@ Page({
     teamid:""
   },
   onLoad: function (options) {
+    wx.getStorage({
+      key: 'openid',
+      fail: () => { wx.redirectTo({ url: '../index/index', }) },
+    })
     // 页面初始化 options为页面跳转所带来的参数
     var teamid = options.teamid;
     var that = this;

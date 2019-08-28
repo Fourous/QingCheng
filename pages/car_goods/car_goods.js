@@ -24,6 +24,10 @@ Page({
     off:""
   },
   onLoad: function (options) {
+    wx.getStorage({
+      key: 'openid',
+      fail: () => { wx.redirectTo({ url: '../index/index', }) },
+    })
     // 页面初始化 options为页面跳转所带来的参数
     var id = options.id;
     var that = this;

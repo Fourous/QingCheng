@@ -21,6 +21,10 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    wx.getStorage({
+      key: 'openid',
+      fail: () => { wx.redirectTo({ url: '../index/index', }) },
+    })
     //先获取必要数据
     wx.getStorage({
       key: 'openid',

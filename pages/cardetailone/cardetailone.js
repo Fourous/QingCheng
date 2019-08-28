@@ -19,6 +19,10 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    wx.getStorage({
+      key: 'openid',
+      fail: () => { wx.redirectTo({ url: '../index/index', }) },
+    })
     var that=this;
     console.log(options)
     // 1.调用wx.getLocation系统API,获取并设置当前位置经纬度

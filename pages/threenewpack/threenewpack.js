@@ -94,6 +94,10 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (e) {
+    wx.getStorage({
+      key: 'openid',
+      fail: () => { wx.redirectTo({ url: '../index/index', }) },
+    })
     var that = this
     wx.getSystemInfo({
       success: function (res) {

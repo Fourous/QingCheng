@@ -49,6 +49,10 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function(options) {
+    wx.getStorage({
+      key: 'openid',
+      fail: () => { wx.redirectTo({ url: '../index/index', }) },
+    })
     wx.showToast({
       title: '正在努力开发！还未开放，敬请期待',
       icon: 'none'
