@@ -104,5 +104,13 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+  download: function() {
+    wx.saveImageToPhotosAlbum({
+      filePath: 'data:image/png;base64,' + this.data.scanQR ,
+    })
+    success: (res)=>{
+      console.log(res)
+    }
   }
 })

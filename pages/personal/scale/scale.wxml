@@ -1,8 +1,6 @@
 
 <view class="container">
-<!-- <image class="backg" src="{{scanback}}"></image> -->
-  <!-- <view class="imgview"> -->
-    <!-- <image class="scaleImg" src="{{scaleImgUrl}}"></image> -->
-    <image  class="scan" src="data:image/png;base64,{{scanQR}}"></image>
-  <!-- </view> -->
+  <image class="backgroundImg" src="https://qczby.oss-cn-shenzhen.aliyuncs.com/others/wescan.png"></image>
+  <image  class="scan" src="data:image/png;base64,{{scanQR}}"></image>
+  <image class="download" src="../../image/download.png" bindtap="download"></image>
 </view>
