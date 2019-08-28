@@ -5,14 +5,56 @@ Page({
    * 页面的初始数据
    */
   data: {
-    scanback:"https://qczby.oss-cn-shenzhen.aliyuncs.com/others/wescan.png"
+    scanback:"https://qczby.oss-cn-shenzhen.aliyuncs.com/others/wescan.png",
+    scanQR:""
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    
+    var that=this
+    wx.request({
+      url: 'https://www.qczyclub.com/getQRcode',
+      method: 'POST',
+      data: {
+        
+      },
+      header: {
+        'content-type': 'application/x-www-form-urlencoded;charset=UTF-8'
+      },
+      success: function (res) {
+        console.log(res.data)
+        let urlimg = "https://api.weixin.qq.com/cgi-bin/wxaapp/createwxaqrcode?access_token="+res.data.token//小程序获取token
+        
+        wx.request({
+          url:urlimg, 
+          method: 'POST',
+          data: {
+            "path": "pages/index/index?openid="+"12345",
+            "width": 430,
+            "auto_color": false,
+            "line_color": { "r": "0", "g": "0", "b": "0" }
+          },
+          responseType: 'arraybuffer',
+          // header: {
+          //   'content-type': 'application/;charset=UTF-8'
+          // },
+          success: function (res) {
+            console.log("二维码"+res.data)
+            that.setData({
+              scanQR: wx.arrayBufferToBase64(res.data)
+            })
+          },
+          fail: function (res) {
+            console.log(res);
+          }
+        })
+      },
+      fail: function (res) {
+        console.log(res);
+      }
+    })
   },
 
   /**

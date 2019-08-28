@@ -56,7 +56,7 @@ page, .container{
   color: #eee;
   height: 45px;
   line-height: 45px;
-  top: 365px;
+  top: 550px;
 }
 .somebutton{
   height: 100%;

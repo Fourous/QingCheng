@@ -35,7 +35,7 @@ Page({
     wx.request({
       url: 'https://www.qczyclub.com/Getime',
       header: {
-        'content-type': 'application/x-www-form-urlencoded',
+        'content-type': 'application/x-www-form-urlencoded;charset=UTF-8'
       },
       method: 'post',
       data: {

@@ -1,2 +1,56 @@
-<!--pages/personal/myTeam/myTeam.wxml-->
-<text>pages/personal/myTeam/myTeam.wxml</text>
+<view class="container">  
+  <view class="mycontain">
+    <image class="backgr" src="{{backgr}}"></image>
+    <view class="sometxt">
+      <view class="myboss">
+        <text class="tmyboss">分销上级：{{boss}}</text>
+      </view>
+    </view>
+    <view class="avatar">
+      <image class="avaimage" src="{{userInfo.avatarUrl}}"></image>
+      <view class="mynickname">
+        <text class="nickname">{{userInfo.nickName}}</text>
+      </view>
+    </view>
+<!-- 这里是昵称以及上级分销人员的昵称，没有分销人员填自主报名 -->
+  </view>
+
+<!-- 这里是下面的展示 -->
+  <view class="partone showList" bindtap="updown1" hidden='{{!flag2}}'>
+    <view class="titlepart">
+      <view class="titleText"><text>一级分销人员</text></view>
+      <view class='icondown'>
+        <image class='iconbind' src='../../image/down.png' ></image>
+      </view>
+    </view>
+    <view class="showContainer"  hidden='{{flag1}}'>
+      <view class="signing"><text>{{someerro1}}</text></view>
+      <view class='item_desc' wx:for="{{listone}}">
+        <image  class="ava" src="{{item.avatar}}"></image>
+        <view class="nickna"><text >{{item.name}}</text></view>
+        <view class="telp"><text>{{item.tel}}137192648261</text></view>
+      </view>
+    </view>
+  </view>
+  <view class="parttwo showList" hidden='{{!flag1}}'>
+    <view class='list_item'  bindtap="updown2">
+      <view class="titlepart">
+        <view class="titleText"><text>二级分销人员</text></view>
+        <view class='icondown'>
+          <image class='iconbind' src='../../image/down.png' ></image>
+        </view>
+      </view>
+      <view class="showContainer" hidden='{{flag2}}'>
+        <view class="signing"><text>{{someerro2}}</text></view>
+        <view class='item_desc' wx:for="{{listtwo}}">
+                <!-- 这里开始列表展示 -->
+          <view class="colume"> 
+            <image  class="ava" src="{{item.avatar}}"></image>
+            <text class="nickna">{{item.name}}</text>
+            <text class="telp">{{item.tel}}</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

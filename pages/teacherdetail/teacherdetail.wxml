@@ -7,7 +7,7 @@
   <image  class="topimg" src="{{sw}}"></image>
 </view>
 <view class="newsList">
-  <view class="newsItem" bindtap="enterMenberThinking"><text class="itemText">学员心声</text><image mode="scaleToFill" class="itemImg" src="../image/invitefr.jpg"/></view>
-  <view class="newsItem" bindtap="enterTeacherThinking"><text class="itemText">教练心声</text><image class="itemImg" src="../image/invitefr.jpg"/></view>
-  <view class="newsItem" bindtap="enterCooperate"><text class="itemText">招商加盟</text><image class="itemImg"  src="../image/invitefr.jpg"/></view>
+  <view class="newsItem" bindtap="enterMenberThinking"><text class="itemText">学员心声</text><image mode="scaleToFill" class="itemImg" src="{{imageav1}}"/></view>
+  <view class="newsItem" bindtap="enterTeacherThinking"><text class="itemText">教练心声</text><image class="itemImg" src="{{imageav2}}"/></view>
+  <view class="newsItem" bindtap="enterCooperate"><text class="itemText">招商加盟</text><image class="itemImg"  src="{{imageav3}}"/></view>
 </view>

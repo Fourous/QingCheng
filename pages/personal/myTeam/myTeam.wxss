@@ -1,1 +1,164 @@
-/* pages/personal/myTeam/myTeam.wxss */
+age{
+  height: 100%;
+  width: 100%;
+  font-size: 17px;
+  overflow: hidden;
+  background-color: #E4E4E4;
+}
+.showPart{
+  padding-bottom: 12px;
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: auto;
+  width: auto;
+}
+.showItem{
+  background-color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 1px 4px 0px 10px;
+  border: 1px solid #E4E4E4;
+  height: 280rpx;
+  width: 200rpx;
+}
+.avatar{
+  height: 50%;
+  display: flex;
+  margin-left:  30rpx;
+}
+.avaimage{
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+}
+.textView{
+  margin: 10px 0 15px 15px;
+  font-size: 24px;
+}
+.backgr{
+  position: absolute;
+  top: 0px;
+  z-index: -111;
+  width: 100%;
+  height: 200px;
+}
+.mycontain{
+  width: 100%;
+  height: 200px;
+}
+
+.sometxt{
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.myboss{
+  margin-left: 20px;
+  font-size: 23px;
+  font-weight: bold;
+}
+.mynickname{
+  font-weight: bold;
+  margin-top: 18px;
+  margin-left: 15px;
+  font-size: 26px;
+}
+.column{
+ display: flex;
+ height: 30px;
+}
+.titlepart{
+  display: flex;
+  height: 30rpx;
+  width: 100%;
+}
+.onepart{
+  display: block;
+  width: 49%;
+  line-height: 30rpx;
+  font-size: 15px;
+  text-align: center;
+}
+
+
+.partone{
+  height: 50px;
+  border: solid 1rpx #ccc;
+  width: 90%;
+  margin: 0px auto;
+  margin-top: 33px;
+  background-color: #eee;
+  border-radius: 2px;
+}
+.parttwo{
+  height: 50px;
+  border: solid 1rpx #ccc;
+  width: 90%;
+  margin: 0px auto;
+  margin-top: 33px;
+  background-color: #eee;
+  border-radius: 2px;
+}
+.titlepart{
+  height: 100%;
+}
+.titleText{
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 16px;
+}
+.icondown{
+  margin-top: 15px;
+  margin-left: 40%;
+  text-align: center;
+}
+.iconbind{
+  height: 45rpx;
+  width: 45rpx;
+}
+.showContainer{
+  background-color: #E4E4E4;
+  height: 550rpx;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.item_desc{
+  border-bottom: 1px solid white;
+  height: 130rpx;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.signing{
+  margin-left: 14px;
+  margin-top: 14px;
+  font-size: 21px;
+}
+.colume{
+  margin: 0px auto;
+}
+.ava{
+  margin-right: 15px;
+  margin-top: 10px;
+  background-color: yellow;
+  height: 80rpx;
+  width: 80rpx;
+  border-radius: 40rpx;
+}
+.nickna{
+  margin-top: 18px;
+  margin-right: 51px;
+  font-size: 19px;
+  /* color: #eee; */
+}
+.telp{
+  width: 30%;
+  line-height: 30px;
+  font-size: 15px;
+  margin-top: 16px;
+  margin-right: 8px;
+
+}

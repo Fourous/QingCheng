@@ -11,6 +11,9 @@ Page({
       // "../image/invitefr.jpg",
       // "../image/invitefr.jpg",
     ],
+    imageav1:"https://qczby.oss-cn-shenzhen.aliyuncs.com/others/2-1.jpg",
+    imageav2:"https://qczby.oss-cn-shenzhen.aliyuncs.com/others/2-2.jpg",
+    imageav3:"https://qczby.oss-cn-shenzhen.aliyuncs.com/others/2-3.jpg",
     sw:"https://qczby.oss-cn-shenzhen.aliyuncs.com/advertising/swiper1.jpg"    
   },
   // show: function () {

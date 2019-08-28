@@ -79,5 +79,15 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+  formcommit:function(){
+    wx.showToast({
+      title: '提交成功',
+    })
+    var pages = getCurrentPages();
+    var tempPage = pages[pages.length - 2];
+    wx.navigateBack({
+
+    })
   }
 })
